@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&family=Neucha&family=Ubuntu:wght@500&display=swap');
+#title{
+    background: linear-gradient(110deg, #fd3a69 60%, #ffed4b 60%);
+    
+}
+h1{
+    font-family: 'Montserrat-Black', sans-serif ;
+    font-size: 3rem !important;
+    line-height: 1.5;
+    color: #ffff !important;
+    font-weight:900 !important;
+}
+hr{
+    
+    border-top: 8px dotted #dddddd !important;
+    width: 8%;
+        
+}
+
+nav{
+    padding:0px 0px 50px 0px !important;
+    color: #ffff !important;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif ;
+    font-size: 2.2rem !important;
+    color: #ffff !important;
+  
+}
+body{
+    font-family: 'Montserrat-black', sans-serif;
+}
+h3{
+    font-family: 'Neucha', cursive !important;
+}
+h2{
+    font-family: 'Montserrat-Bold', sans-serif !important;
+    font-weight: 900  !important;
+}
+#title{
+    padding:2% 15%;
+}
+#title-image{
+    transform: rotate(25deg);
+    width: 24rem;
+    position: absolute;
+    right: 280px;
+    top: 120px;
+}
+#features{
+    padding: 7% 15%;
+    text-align: center;
+    position:relative;
+    background-color: #ffff;
+}
+#testimonials{
+    text-align: center;
+    
+    background-color: #fd3a69;
+    color: #ffff;
+}
+#press{
+    text-align: center;
+    background-color: #fd3a69;
+    }
+#pricing{
+    text-align: center;
+    padding: 140px;
+}
+#pricing-p{
+    color: #86aba1;
+}
+@media (max-width:1260px){
+    #title-image{
+        transform: rotate(25deg);
+        position: static;
+        transform: rotate(0);
+    }
+}
+#cta{
+   text-align: center;
+   background-color: #fd3a69;
+   padding: 4% 25%;
+   color: #fff;
+   
+}
+#footer{
+    background: linear-gradient(110deg, #fd3a69 60%, #ffed4b 60%);
+    text-align: center;
+    color: #fff;
+    padding: 0% 0%;
+} 
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.1rem;  
+}
+.row{
+    margin: 0px !important;
+}
+.btn {
+    margin: 5% 1.5% 5%;
+}
+
+.feature-box{
+    
+   padding: 0% 8%;
+   color: #86aba1;
+}
+.icon {
+    color:#fd3a69;
+    margin: 1rem;
+}
+.icon:hover{
+    color: #ffed4b;
+}
+
+
+.testimonials-img{
+    width: 20%;
+    border-radius: 100%;
+}
+
+.press-logo{
+padding: 5rem 3rem;
+width: 20%;
+
+}
+.carousel-item {
+    padding: 5% 25%;
+}
+
+.pricing-section{
+    padding: 2% 4%;
+}
+.pricing-title{
+    font-family: 'Montserrat-Bold', sans-serif !important;  
+    font-weight:bold;
+}
+
+.cta-h1{
+    font-size:40px;
+    line-height: 2;
+}
+
+
+
+.social-media-icons{
+    padding: 0% 2%;
+} 
+.cite{
+    font-size: 11px;
+   float: right;
+   color: #222831;
+   padding-right: 10px;
+}
+a{
+    color: #fff !important;
+}
